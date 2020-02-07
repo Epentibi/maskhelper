@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/tips/tips",
+    "pages/template/template",
+    "pages/mask/mask",
+    "components/searchBox/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "战胜疫情，从我做起",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#999999",
+    "selectedColor": "#0000FF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/mask/mask",
+        "text": "口罩指南",
+        "iconPath": "images/TabBar/Face Mask.png",
+        "selectedIconPath": "images/TabBar/Face Mask.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/TabBar/Home.png",
+        "selectedIconPath": "images/TabBar/Home.png"
+      },
+      {
+        "pagePath": "pages/tips/tips",
+        "text": "防疫技巧",
+        "iconPath": "images/TabBar/Tips.png",
+        "selectedIconPath": "images/TabBar/Tips.png"
+      }
+    ]
+  }
+}

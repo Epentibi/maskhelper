@@ -1,0 +1,98 @@
+.robotsearch{
+  display: flex;
+  flex-direction: row
+}/*智能搜索整体*/
+.robotinput{
+  margin-top: 30rpx;
+  text-align: center;
+}/*智能搜索输入*/
+.robotbutton{
+  margin-top: 12rpx;
+}/*智能搜索按钮*/
+.mansearch{
+  display: flex;
+  flex-direction: row;
+}/*人工识别整体*/
+.manbutton{
+  position: absolute;
+  font-weight:bold;
+  font-size: 35rpx;
+  right:11%;
+  margin-top: 21rpx;
+}/*人工识别按钮*/
+.maninfo{
+  position: absolute;
+  margin-top: 21rpx;
+  color:grey;
+  right:40%;
+} /*人工识别公告*/
+.hr2{
+  height: 3rpx;
+  background-color: grey;
+  margin:10rpx;
+}/*分割线*/
+.search{
+  text-align: right;
+  display:flex;
+  flex-direction:row;
+}
+.battle{
+  margin-top:10rpx;
+}
+.menu{
+  display:flex;
+  flex-direction:row;
+}
+.menu-item{
+  font-size: 29rpx;
+  margin-top:12rpx;
+  width:50%;
+}
+.breakline{
+  height: 7rpx;
+  background-color: grey;
+  margin:10rpx
+}
+.listname{
+  display:flex;
+  flex-direction:row;
+  margin:10rpx;
+  font-size:30rpx;
+  color:#999999
+}
+.title{
+  font-weight:bold;
+}
+.mask{
+  display:flex;
+  flex-direction:row;
+  margin-left:10rpx;
+  margin-bottom: 5rpx;
+}
+.desc{
+  margin-left:20rpx
+
+}
+.count{
+  display:flex;
+  flex-direction: row;
+  font-size: 30rpx;
+  color:grey;
+  margin-top: 7rpx
+
+}
+.function{
+  
+  display:flex;
+  font-size: 27rpx;
+}
+.price{
+  position: absolute;
+  right: 180rpx;
+  font-size: 27rpx;
+}
+.time{
+  position: absolute;
+  right:10rpx;
+  font-size: 27rpx;
+}

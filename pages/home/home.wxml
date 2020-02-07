@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<image class='battle'style='width:750rpx;height:500rpx' src="../../images/Page/Battle.jpg"></image>
+<view class='robotsearch'>
+      <image src="../../images/Search Menu/Robot.png" style='width:100rpx;height:100rpx'></image>
+      <input class='robotinput' placeholder="请输入你的口罩品牌" ></input>
+      <button class='robotbutton' style='width:250rpx;height:80rpx'>智能搜索</button>
+</view>
+
+<view class='breakline'></view>
+
+<view class='mansearch'>
+    <image src="../../images/Search Menu/Officer.png" style='width:95rpx;height:90rpx'></image>
+    <text class='maninfo'>请在下面查找你的型号</text>
+    <text class='manbutton'size="mini">人工识别</text>
+</view>   

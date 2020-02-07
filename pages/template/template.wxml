@@ -1,0 +1,24 @@
+<!--pages/template/template.wxml-->
+<template name='searchlist'>
+  <block wx:for='{{array}}'>
+    <view class='mask' bindtap='seeDetail' id='0'>
+      <view>
+        <image class='icon' src='{{item.img}}'></image>
+      </view>
+      <view class='desc'>
+        <view class='title'>{{item.title}}</view>
+        <text>\n</text>
+        <view class='count'>
+          <text>{{item.price}}</text>
+          <text>{{item.time}}</text>
+          <text>{{item.function}}</text>
+        </view>
+        </view>
+    </view>
+    </block>
+  </template>
+        
+
+
+
+         

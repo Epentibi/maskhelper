@@ -1,0 +1,54 @@
+/* pages/mask/mask.wxss */
+
+.hr2{
+  height: 3rpx;
+  background-color: grey;
+  margin:10rpx;
+}/*分割线*/
+.breakline{
+  height: 7rpx;
+  background-color: grey;
+  margin:10rpx
+}
+.listname{
+  display:flex;
+  flex-direction:row;
+  margin:10rpx;
+  font-size:30rpx;
+  color:#999999
+}
+.title{
+  font-weight:bold;
+  font-size: 24px;
+}
+.mask{
+  background: #F5F5F5;
+  padding: 16px;
+  display:flex;
+  flex-direction:row;
+  margin: 16px;
+  border-radius: 10px;
+}
+.desc{
+  margin-left:20rpx
+
+}
+.count{
+  display:flex;
+  flex-direction: column;
+  font-size: 30rpx;
+  color:grey;
+}
+
+.icon{
+  height: 128px;
+  width: 128px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.label{
+  margin-right: 16px;
+  margin-left: 16px;
+  font-size: 18px;
+}
