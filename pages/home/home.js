@@ -9,6 +9,7 @@ Page({
     imgUrls: [
       '../../images/Page/Battle.jpg',
       '../../images/Page/Battle3.jpg',
+      '../../images/Page/Battle2.jpg',
       '../../images/Page/Battle5.jpg'
     ],
   },
