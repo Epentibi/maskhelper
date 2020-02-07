@@ -1,9 +1,5 @@
 <!--pages/home/home.wxml-->
 
-
-
-
-
 <view class='robotsearch'>
       <image src="../../images/Search Menu/Robot.png" style='width:100rpx;height:100rpx'></image>
       <input class='robotinput' placeholder="请输入你的口罩品牌" ></input>
@@ -24,16 +20,5 @@
     <text class='manbutton'size="mini">人工识别</text>
 </view>   
 
-
-  <view class='listname'>
-    <view>口罩型号栏</view>
-  </view>
-  <view class='hr2'></view>
-  <import src="../template/template.wxml"></import>
-  <view>
-    <template is='searchlist' data="{{array}}"/>
-
-
-  </view>
 
 
