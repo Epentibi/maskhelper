@@ -6,7 +6,8 @@
     "pages/template/template",
     "pages/mask/mask",
     "components/searchBox/index",
-    "pages/wash/wash"
+    "pages/wash/wash",
+    "pages/tips/tips"
   ],
   "window": {
     "backgroundTextStyle": "light",

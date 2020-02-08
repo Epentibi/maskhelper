@@ -1,8 +1,8 @@
 <!--pages/home/home.wxml-->
-<swiper circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 500rpx;">
   <block wx:for="{{imgUrls}}">  
       <swiper-item>
-        <image src="{{item}}" class='slideshow' model="aspectFit" />
+        <image src="{{item}}" class='slideshow' mode="widthFix" />
       </swiper-item>
   </block>
 </swiper>
