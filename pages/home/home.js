@@ -6,11 +6,19 @@ Page({
     interval: 3000,
     duration: 1000,
 
+
+
+
     imgUrls: [
-      '../../images/Page/Battle.jpg',
-      '../../images/Page/Battle 3.jpg',
-      '../../images/Page/Battle2.jpg',
-      '../../images/Page/Battle5.jpg'
+      '../../images/Page/R-Battle.jpg',
+      '../../images/Page/R-Battle3.jpg',
+      '../../images/Page/R-Battle2.jpg',
+      '../../images/Page/R-Battle1.jpg'
+    
+  
     ],
-  },
+ 
+
+     }
+
 })

@@ -1,24 +1,29 @@
 <!--pages/home/home.wxml-->
-<swiper circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 500rpx;">
   <block wx:for="{{imgUrls}}">  
       <swiper-item>
-        <image src="{{item}}" class='slideshow' model="aspectFit" />
+        <image src="{{item}}" class='slideshow' mode="widthFix" />
       </swiper-item>
   </block>
 </swiper>
-<view class='robotsearch'>
-      <image src="../../images/Search Menu/Robot.png" style='width:100rpx;height:100rpx'></image>
-      <input class='robotinput' placeholder="请输入你的口罩品牌" ></input>
-      <button class='robotbutton' style='width:250rpx;height:80rpx'>智能搜索</button>
-</view>
+<!--设置轮播-->
 
-<view class='breakline'></view>
 
-<view class='mansearch'>
-    <image src="../../images/Search Menu/Officer.png" style='width:95rpx;height:90rpx'></image>
-    <text class='maninfo'>请在下面查找你的型号</text>
-    <text class='manbutton'size="mini">人工识别</text>
-</view>   
+
+  <text>\n</text>
+  <text>\n</text>
+  <text>点击搜索你的口罩型号</text>
+  <text>\n</text>
+
+  <navigator url="../../pages/mask/mask" open-type="switchTab">
+    <image src="../../images/Search Menu/homesearchmask.jpg" class='homesearch'></image>
+  </navigator>
+
+
+
+
+
+
 
 
 
