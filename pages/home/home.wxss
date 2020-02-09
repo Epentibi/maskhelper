@@ -13,18 +13,60 @@
 }
 
 .slideshow{
-width: 100%
+justify-content: center;
+align-items: center;
+display: flex;
 }
-.homesearch{
-  margin-top: 10rpx;                  
+
+.swiperimg{
+width:620rpx;
+height:460rpx;
+
+}
+
+.homenavi{      
+  display: flex;          
   justify-content: center; 
   align-items:center;
-  height: 400rpx;
-  left:7%;
-  position: absolute
+  margin-top: 10rpx;
+}
+.naviimg{
+  height: 300rpx;
+  width:620rpx;
+  margin-top: 10rpx;
+}
+.naviinfo{
+  font-weight: bold;
+}
+.washnavi{      
+  display: flex;          
+  justify-content: center; 
+  align-items:center;
+  margin-top: 10rpx;
+}
+.washinfo{
+  font-weight: bold;
+}
+.washimg{
+  height: 300rpx;
+  width:620rpx;
+  margin-top: 10rpx;
+}
+.wearnavi{      
+  display: flex;          
+  justify-content: center; 
+  align-items:center;
+  margin-top: 10rpx;
+}
+.wearinfo{
+  font-weight: bold;
 
 }
-
+.wearimg{
+  height: 300rpx;
+  width:620rpx;
+  margin-top: 10rpx;
+}
 
 
 
