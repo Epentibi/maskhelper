@@ -10,12 +10,10 @@ Page({
 
 
     imgUrls: [
-      '../../images/Page/R-Battle.jpg',
-      '../../images/Page/R-Battle3.jpg',
-      '../../images/Page/R-Battle2.jpg',
-      '../../images/Page/R-Battle1.jpg'
-    
-  
+      '../../images/Tests/timg-12.jpeg',
+      '../../images/Tests/timg-13.jpeg',
+      '../../images/Tests/timg-12.jpeg',
+      '../../images/Tests/timg-13.jpeg',
     ],
  
 

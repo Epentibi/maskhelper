@@ -53,7 +53,7 @@ Page({
   onLoad() {
     this.setData({
       array: this.data.originalArray
-    })
+    });
   },
   
   onShow() {
@@ -68,6 +68,17 @@ Page({
   addhandle() {
     console.log('触发搜索框右侧事件');
   },
+
+  seeDetail(event) {
+    var $this = this;
+    var title = event.currentTarget.dataset.gid;
+    var information = this.data.originalArray.find(x => x.title === title);
+    console.log(information);
+    wx.navigateTo({ url: "/pages/mask_detail/mask_detail?information=" + JSON.stringify(
+      information
+    ) });
+  },
+
 
   //搜索框输入时触发
   searchList(ev) {

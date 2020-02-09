@@ -2,12 +2,13 @@
   "pages": [
     "pages/home/home",
     "pages/logs/logs",
-    "pages/wear/wear",
     "pages/template/template",
     "pages/mask/mask",
     "components/searchBox/index",
     "pages/wash/wash",
-    "pages/tips/tips"
+    "pages/tips/tips",
+    "mask_detail",
+    "pages/mask_detail/mask_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,18 +1,33 @@
-// pages/wear/wear.js
+// pages/mask_detail/mask_detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    information: {
+      "img": '../../images/Search List/N95.jpg',
+      "title": 'K/N95',
+      "function": '过滤效率大于95%',
+      "price": '大约12元',
+      "time": '4小时一换',
+      "alt": []
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    if(options.information != null)
+    {
+      var l = JSON.parse(options.information);
+      this.setData({
+        information: l
+      });
+    }
+    console.log("已打开页面" + this.data.information.title);
+    
   },
 
   /**

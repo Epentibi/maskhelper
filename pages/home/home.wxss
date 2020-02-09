@@ -5,6 +5,15 @@
   margin:10rpx;
 }/*分割线*/
 
+.slide
+{
+  height: 500rpx; 
+  width: 90%; 
+  display:block; 
+  margin:auto; 
+  border-radius: 12px;
+  margin-bottom: 6px;
+}
 
 .breakline{
   height: 7rpx;
@@ -13,45 +22,36 @@
 }
 
 .slideshow{
-justify-content: center;
-align-items: center;
-display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .swiperimg{
-width:620rpx;
-height:460rpx;
-
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
-.homenavi{      
-  display: flex;          
+.homenavi{              
   justify-content: center; 
   align-items:center;
-  margin-top: 10rpx;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  margin-top:10px;
+  width: 90%;
+  display: block;
+  margin: auto;
 }
 .naviimg{
-  height: 300rpx;
-  width:620rpx;
-  margin-top: 10rpx;
+  height: auto;
+  width:100%;
+  border-radius: 12px;
 }
 .naviinfo{
   font-weight: bold;
 }
-.washnavi{      
-  display: flex;          
-  justify-content: center; 
-  align-items:center;
-  margin-top: 10rpx;
-}
-.washinfo{
-  font-weight: bold;
-}
-.washimg{
-  height: 300rpx;
-  width:620rpx;
-  margin-top: 10rpx;
-}
+
 .wearnavi{      
   display: flex;          
   justify-content: center; 

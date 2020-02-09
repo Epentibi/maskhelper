@@ -1,0 +1,5 @@
+<!--pages/mask_detail/mask_detail.wxml-->
+<view class = "page">
+  <text class = "largeTitle">{{information.title}}</text>
+  <image src = '{{information.img}}' class = "cover" mode = "widthFix"></image>
+</view>

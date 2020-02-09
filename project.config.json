@@ -59,6 +59,13 @@
 					"id": -1,
 					"name": "pages/mask/mask",
 					"pathName": "pages/mask/mask",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mask_detail/mask_detail",
+					"pathName": "pages/mask_detail/mask_detail",
 					"scene": null
 				}
 			]
