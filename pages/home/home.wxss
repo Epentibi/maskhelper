@@ -13,15 +13,14 @@
 }
 
 .slideshow{
-
-width:630rpx;
 justify-content: center;
 align-items: center;
 display: flex;
 }
 
 .swiperimg{
-  width:640rpx;
+width:620rpx;
+height:460rpx;
 
 }
 
@@ -32,13 +31,42 @@ display: flex;
   margin-top: 10rpx;
 }
 .naviimg{
-  height: 400rpx;
-  width:640rpx;
+  height: 300rpx;
+  width:620rpx;
+  margin-top: 10rpx;
 }
 .naviinfo{
   font-weight: bold;
 }
+.washnavi{      
+  display: flex;          
+  justify-content: center; 
+  align-items:center;
+  margin-top: 10rpx;
+}
+.washinfo{
+  font-weight: bold;
+}
+.washimg{
+  height: 300rpx;
+  width:620rpx;
+  margin-top: 10rpx;
+}
+.wearnavi{      
+  display: flex;          
+  justify-content: center; 
+  align-items:center;
+  margin-top: 10rpx;
+}
+.wearinfo{
+  font-weight: bold;
 
+}
+.wearimg{
+  height: 300rpx;
+  width:620rpx;
+  margin-top: 10rpx;
+}
 
 
 

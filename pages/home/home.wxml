@@ -1,5 +1,5 @@
 <!--设置轮播-->
-<swiper previous-margin="40rpx" next-margin="40rpx" circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 500rpx;" >
+<swiper previous-margin="45rpx" next-margin="45rpx" circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 500rpx;" >
   <block wx:for="{{imgUrls}}" >  
       <swiper-item class='slideshow'>
         <image src="{{item}}" class='swiperimg'/>
@@ -8,12 +8,28 @@
 </swiper>
 
 <!--设置口罩页面跳转-->
-  <text>\n</text>
-  <text decode="true" class="naviinfo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击搜索口罩型号</text>
-  <text>\n</text>
-  <navigator url="../../pages/mask/mask" open-type="switchTab" class="homenavi">
-    <image src="../../images/Search Menu/homesearchmask.jpg" class='naviimg'></image>
-  </navigator>
+<text>\n</text>
+<text decode="true" class="naviinfo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击搜索口罩型号</text>
+<text>\n</text>
+<navigator url="../../pages/mask/mask" open-type="switchTab" class="homenavi">
+  <image src="../../images/Search Menu/homesearchmask.jpg" class='naviimg'></image>
+</navigator>
+
+<!--设置洗手页面跳转-->
+<text>\n</text>
+<text decode="true" class="washinfo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全面洗手步骤</text>
+<text>\n</text>
+<navigator url="../../pages/wash/wash" open-type="navigate" class="washnavi">
+  <image src="../../images/Search Menu/homesearchmask.jpg" class='washimg'></image>
+</navigator>
+
+<!--设置佩戴口罩页面跳转-->
+<text>\n</text>
+<text decode="true" class="wearinfo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正确使用口罩</text>
+<text>\n</text>
+<navigator url="../../pages/wear/wear" open-type="navigate" class="wearnavi">
+  <image src="../../images/Search Menu/homesearchmask.jpg" class='wearimg'></image>
+</navigator>
 
 
 
