@@ -13,16 +13,30 @@
 }
 
 .slideshow{
-width: 100%
+
+width:630rpx;
+justify-content: center;
+align-items: center;
+display: flex;
 }
-.homesearch{
-  margin-top: 10rpx;                  
+
+.swiperimg{
+  width:640rpx;
+
+}
+
+.homenavi{      
+  display: flex;          
   justify-content: center; 
   align-items:center;
+  margin-top: 10rpx;
+}
+.naviimg{
   height: 400rpx;
-  left:7%;
-  position: absolute
-
+  width:640rpx;
+}
+.naviinfo{
+  font-weight: bold;
 }
 
 
