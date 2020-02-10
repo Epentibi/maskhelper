@@ -21,3 +21,16 @@
 <navigator url="../../pages/habit/habit" open-type="navigate" class="homenavi" mode = 'widthFix'>
   <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
 </navigator>
+
+<view class='breakline'></view>
+<view>
+  <text class='quote title'>战胜疫情，每一天都是春节</text>
+  <text class='quote'>传染病防治是一个社会系统工程，势必会降低大家的生活便利程度。也许今年的春节没有往常那么忙碌、那般热闹，没有了觥筹交错、聚会宴饮，却使我们对生命之可贵有了更加深切的体会。见屏如面，网络送祝福，亲情友情依旧浓。要记住，团聚是喜，安康是福，人在家在，幸福才会一直在。一个个小家平平安安，社会这个大家才会生机勃勃。</text>
+</view>
+<view class='breakline'></view>
+<view>
+  <text class='quote title'>最重要的一点，\n打击病毒而并非消灭武汉人</text>
+  <text class='quote'>现在中国上下一听到武汉就非常激动，的确这场疫情是由武汉而来，但并非是因武汉人而起，其实他们也是受害者。病毒只是不巧路过武汉而已，病毒无处不在，也肯能居住在你的身边。对武汉人民的包容就是对自己最大的包容。疫情结束后，我们都还是中国人！</text>
+</view>
+<view class='breakline'></view>
+
