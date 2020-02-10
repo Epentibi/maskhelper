@@ -1,1 +1,51 @@
 /* pages/tips/tips.wxss */
+.tipstitle{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-weight: bolder;
+  font-size: 50rpx;
+  margin-left: 35rpx;
+  border-color: black;
+}
+.subtitle{
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight:bold;
+}
+.titleimg{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: center;
+  margin-bottom: 28rpx;
+
+}
+.imgsize{
+  width:90%;
+  border-radius: 24rpx;
+}
+.homenavi{              
+  justify-content: center; 
+  align-items:center;
+  border-radius: 24rpx;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26rpx;
+}
+.naviimg{
+  height: auto;
+  width:100%;
+  border-radius: 24rpx;
+}
+.naviinfo{
+  font-weight: bold;
+  font-size: 36rpx;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 26rpx;
+}

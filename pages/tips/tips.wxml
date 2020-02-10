@@ -1,2 +1,23 @@
 <!--pages/tips/tips.wxml-->
-<text>pages/tips/tips.wxml</text>
+<view class='tipstitle'>
+  <text class='title'>防疫技巧</text>
+  <text decode="true" style="white-space:pre-wrap" class='subtitle'>做一个负责任，受保护的公民</text>
+</view>
+<view class='titleimg'>
+  <image  class='imgsize' src="../../images/Tests/ender.jpg"></image>
+</view>
+
+<text decode="true" class="naviinfo">洗手步骤</text>
+<navigator url="../../pages/wash/wash" open-type="navigate" class="homenavi" mode = 'widthFix'>
+  <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
+</navigator>
+
+<text decode="true" class="naviinfo">口罩使用</text>
+<navigator url="../../pages/wear/wear" open-type="navigate" class="homenavi" mode = 'widthFix'>
+  <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
+</navigator>
+
+<text decode="true" class="naviinfo">生活习惯</text>
+<navigator url="../../pages/habit/habit" open-type="navigate" class="homenavi" mode = 'widthFix'>
+  <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
+</navigator>

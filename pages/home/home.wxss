@@ -11,8 +11,8 @@
   width: 90%; 
   display:block; 
   margin:auto; 
-  border-radius: 12px;
-  margin-bottom: 6px;
+  border-radius: 24rpx;
+  margin-bottom: 12rpx;
 }
 
 .breakline{
@@ -30,48 +30,34 @@
 .swiperimg{
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 24rpx;
 }
 
 .homenavi{              
   justify-content: center; 
   align-items:center;
-  border-radius: 12px;
+  border-radius: 24rpx;
   width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 12px;
+  margin-bottom: 24rpx;
 }
 .naviimg{
   height: auto;
   width:100%;
-  border-radius: 12px;
+  border-radius: 24rpx;
 }
 .naviinfo{
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 36rpx;
   width: 90%;
   display: block;
   margin: auto;
-  margin-bottom: 8px;
+  margin-bottom: 16rpx;
 }
 
-.wearnavi{      
-  display: flex;          
-  justify-content: center; 
-  align-items:center;
-  margin-top: 10rpx;
-}
-.wearinfo{
-  font-weight: bold;
 
-}
-.wearimg{
-  height: 300rpx;
-  width:620rpx;
-  margin-top: 10rpx;
-}
 
 
 
