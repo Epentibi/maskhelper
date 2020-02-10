@@ -49,3 +49,25 @@
   margin: auto;
   margin-bottom: 26rpx;
 }
+.breakline{
+  height: 7rpx;
+  background-color: grey;
+  margin:10rpx;
+}
+.hr2{
+  height: 3rpx;
+  background-color: grey;
+  margin:10rpx;
+}
+.quote{
+  display: flex;
+  line-height: 50rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  margin-top: 18rpx;
+  margin-bottom: 20rpx;
+}
+.quotetitle{
+  display: flex;
+  line-height: 50rpx;
+}
