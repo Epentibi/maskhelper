@@ -1,12 +1,16 @@
 {
   "pages": [
+    "pages/tips/tips",
     "pages/home/home",
     "pages/logs/logs",
     "pages/template/template",
     "pages/mask/mask",
     "components/searchBox/index",
     "pages/wash/wash",
-    "pages/tips/tips",
+    "pages/wear/wear",
+    "pages/habit/habit",
+    "pages/virusinfo/virusinfo",
+    
     "mask_detail",
     "pages/mask_detail/mask_detail"
   ],
