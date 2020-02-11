@@ -1,1 +1,14 @@
 /* pages/wash/wash.wxss */
+.title{
+  font-weight: bolder;
+  font-size: 50rpx;
+  margin-left: 35rpx;
+  margin-top:35rpx;
+}
+.titleimg{
+  margin-top: 25rpx;
+  border-radius: 24rpx;
+  width: 100%;
+  height: 500rpx;
+  border-radius: 24rpx;
+}

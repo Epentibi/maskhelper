@@ -1,2 +1,5 @@
 <!--pages/wash/wash.wxml-->
-<text>pages/wash/wash.wxml</text>
+<text class='title'>洗手步骤与注意事项</text>
+<view>
+  <image class='titleimg' src="../../images/Page/washmethod.png"></image>
+</view>

@@ -21,7 +21,7 @@
 
 <!--设置洗手页面跳转-->
 <text decode="true" class="naviinfo">全面洗手步骤</text>
-<navigator url="../../pages/tips/tips" open-type="switchTab" class="homenavi" mode = 'widthFix'>
+<navigator url="../../pages/wash/wash" open-type="navigate" class="homenavi" mode = 'widthFix'>
   <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
 </navigator>
 

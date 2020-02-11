@@ -61,7 +61,7 @@
 }
 .quote{
   display: flex;
-  line-height: 50rpx;
+  line-height: 85rpx;
   margin-left: 50rpx;
   margin-right: 50rpx;
   margin-top: 18rpx;
@@ -69,5 +69,5 @@
 }
 .quotetitle{
   display: flex;
-  line-height: 50rpx;
+  line-height: 85rpx;
 }

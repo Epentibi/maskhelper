@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/tips/tips",
+    "pages/wash/wash",
     "pages/home/home",
+    "pages/tips/tips",
     "pages/logs/logs",
     "pages/template/template",
     "pages/mask/mask",
     "components/searchBox/index",
-    "pages/wash/wash",
     "pages/wear/wear",
     "pages/habit/habit",
     "pages/virusinfo/virusinfo",
