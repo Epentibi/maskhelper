@@ -66,6 +66,14 @@
 					"id": -1,
 					"name": "pages/mask_detail/mask_detail",
 					"pathName": "pages/mask_detail/mask_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/wash/wash",
+					"pathName": "pages/wash/wash",
+					"query": "",
 					"scene": null
 				}
 			]
