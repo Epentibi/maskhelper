@@ -12,7 +12,6 @@
     "pages/habit/habit",
     "pages/virusinfo/virusinfo",
     "pages/report/report",
-    
     "mask_detail",
     "pages/mask_detail/mask_detail"
   ],
@@ -31,23 +30,31 @@
     "borderStyle": "black",
     "list": [
       {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/TabBar/Home.png",
+        "selectedIconPath": "images/TabBar/Home.png"
+      },      
+      {
         "pagePath": "pages/mask/mask",
         "text": "口罩指南",
         "iconPath": "images/TabBar/Face Mask.png",
         "selectedIconPath": "images/TabBar/Face Mask.png"
       },
-      {
-        "pagePath": "pages/home/home",
-        "text": "主页",
-        "iconPath": "images/TabBar/Home.png",
-        "selectedIconPath": "images/TabBar/Home.png"
-      },
+
       {
         "pagePath": "pages/tips/tips",
         "text": "防疫技巧",
         "iconPath": "images/TabBar/Tips.png",
         "selectedIconPath": "images/TabBar/Tips.png"
+      },
+      {
+        "pagePath": "pages/virusinfo/virusinfo",
+        "text": "疫情信息",
+        "iconPath": "images/TabBar/Virus.png",
+        "selectedIconPath": "images/TabBar/Virus.png"
       }
+
     ]
   }
 }
