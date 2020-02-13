@@ -17,10 +17,15 @@
   font-size:30rpx;
   color:#999999
 }
-.title{
+.title::first-line{
   font-weight:bold;
   font-size: 24px;
 }
+.title{
+  font-size: 22px;
+  font-weight: 500px;
+}
+
 .mask{
   background: #F5F5F5;
   padding: 16px;
@@ -45,6 +50,10 @@
   width: 128px;
   vertical-align: middle;
   margin-right: 6px;
+}
+
+.iconView{
+  height: 100%;
 }
 
 .label{

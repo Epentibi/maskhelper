@@ -1,6 +1,5 @@
 {
   "pages": [
-
     "pages/wash/wash",
     "pages/home/home",
     "pages/tips/tips",
@@ -13,7 +12,8 @@
     "pages/virusinfo/virusinfo",
     "pages/report/report",
     "mask_detail",
-    "pages/mask_detail/mask_detail"
+    "pages/mask_detail/mask_detail",
+    "pages/about/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,18 +30,11 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/home/home",
-        "text": "主页",
-        "iconPath": "images/TabBar/Home.png",
-        "selectedIconPath": "images/TabBar/Home.png"
-      },      
-      {
         "pagePath": "pages/mask/mask",
         "text": "口罩指南",
         "iconPath": "images/TabBar/Face Mask.png",
         "selectedIconPath": "images/TabBar/Face Mask.png"
       },
-
       {
         "pagePath": "pages/tips/tips",
         "text": "防疫技巧",
@@ -49,12 +42,23 @@
         "selectedIconPath": "images/TabBar/Tips.png"
       },
       {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/TabBar/Home.png",
+        "selectedIconPath": "images/TabBar/Home.png"
+      },
+      {
         "pagePath": "pages/virusinfo/virusinfo",
         "text": "疫情信息",
         "iconPath": "images/TabBar/Virus.png",
         "selectedIconPath": "images/TabBar/Virus.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "images/TabBar/about.png",
+        "selectedIconPath": "images/TabBar/about.png"
       }
-
     ]
   }
 }

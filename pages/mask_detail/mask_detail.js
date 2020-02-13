@@ -6,12 +6,20 @@ Page({
    */
   data: {
     information: {
-      "img": '../../images/Search List/N95.jpg',
-      "title": 'K/N95',
-      "function": '过滤效率大于95%',
-      "price": '大约12元',
-      "time": '4小时一换',
-      "alt": []
+      "title": '医用防护口罩\nKN90',
+      "eng": 'Medical Protection Mask KN90',
+      'desc':'医⽤用外科⼝口罩  ⼤大多都为⼀一次性使⽤用，医⽤用防护⼝口罩适⽤用于医务⼈人员和相关⼯工作⼈人员对经空⽓气传播的呼吸道 传染病的防护，是⼀一种密合性⾃自吸过滤式医疗防护⽤用品，防护等级⾼高，尤其适⽤用于诊疗活动 中接触经空⽓气传播或近距离经⻜飞沫传播的呼吸道感染疾病患者时佩戴。',
+      "type": '医用防护口罩',
+      "filterStd": 'KN90',
+      "filterCap": [{id: "非油性颗粒", value: "90%"}],
+      "intl": 'FFTP2',
+      "std": 'GB19083-2010',
+      "time": '5小时',
+      "price": '100¥',
+      "virus": '普通群众穿戴即可',
+      "alt": [],
+      "icon": '../../images/Tests/ender.jpg',
+      "img": '../../images/Tests/ender.jpg'
     }
   },
 

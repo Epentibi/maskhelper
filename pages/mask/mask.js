@@ -2,48 +2,24 @@ Page({
 
   data: {
     addflag: true,  //判断是否显示搜索框右侧部分
-    addimg: '../../images/activity_add.png',
+    addicon: '../../images/activity_add.png',
     searchstr: '',
     originalArray: [
       {
-        "img": '../../images/Search List/mian.jpg',
-        "title": '其他种类口罩',
-        "function": '过滤效率大于30%',
-        "price": '价格不等',
-        "time": '使用时间不等',
-        "alt": []
-      },
-      {
-        "img": '../../images/Search List/N95.jpg',
-        "title": 'K/N95',
-        "function": '过滤效率大于95%',
-        "price": '大约12元',
-        "time": '4小时一换',
-        "alt": []
-      },
-      {
-        "img": '../../images/Search List/N95.jpg',
-        "title": 'K/N100',
-        "function": '过滤效率大于95%',
-        "price": '大约12元',
-        "time": '4小时一换',
-        "alt": ['N100','KN100','K100']
-      },
-      {
-        "img": '../../images/Search List/waike.jpg',
-        "title": '医用外科口罩',
-        "function": '过滤效率大于70%',
-        "price": '3-4元',
-        "time": '4小时一换',
-        "alt": []
-      },
-      {
-        "img": '../../images/Search List/N95.jpg',
-        "title": 'K/N90',
-        "function": '过滤效率大于95%',
-        "price": '大约12元',
-        "time": '4小时一换',
-        "alt": []
+        "title": '医用防护口罩\nKN90',
+        "eng": 'Medical Protection Mask KN90',
+        'desc': '',
+        "type": '医用防护口罩',
+        "filterStd": 'KN90',
+        "filterCap": [{ id: "非油性颗粒", value: "90%" }],
+        "intl": 'FFTP2',
+        "std": 'GB19083-2010',
+        "time": '5小时',
+        "price": '100¥',
+        "virus": '普通群众穿戴即可',
+        "alt": [],
+        "icon": '../../images/Tests/ender.jpg',
+        "img": '../../images/Tests/ender.jpg'
       }
     ],
     array: [],
@@ -95,6 +71,9 @@ Page({
     this.data.originalArray.forEach((item) => {
       const title = item.title.toLowerCase();
       if (title.includes(this.data.searchstr.toLowerCase())) {
+        arr1.push(item);
+      }
+      else if (item.eng.toLowerCase().includes(this.data.searchstr.toLowerCase())) {
         arr1.push(item);
       }
       else

@@ -2,16 +2,15 @@
 <template name='searchlist'>
   <block wx:for='{{array}}'>
     <view class='mask' data-gid = '{{item.title}}' bindtap='seeDetail' id='0'>
-      <view>
-        <image class='icon' src='{{item.img}}'></image>
+      <view class = 'iconView'>
+        <image class='icon' src='{{item.icon}}'></image>
       </view>
       <view class='desc'>
         <view class='title'>{{item.title}}</view>
-        <text>\n</text>
         <view class='count'>
-          <text>{{item.price}}</text>
+          <text>{{item.std}}</text>
           <text>{{item.time}}</text>
-          <text>{{item.function}}</text>
+          <text>{{item.price}}</text>
         </view>
         </view>
     </view>
