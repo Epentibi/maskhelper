@@ -2,5 +2,5 @@
   "usingComponents": {
     "SearchBar": "/components/searchBox/index"
   },
-  "navigationBarTitleText": "口罩指南"
+  "navigationBarTitleText": "口罩查询"
 }

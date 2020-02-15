@@ -9,7 +9,7 @@
 
 <!--疫情信息-->
 <text decode="true" class="naviinfo">实时关注疫情</text>
-<navigator url="../../pages/virusinfo/virusinfo" open-type="navigate" class="homenavi" mode = 'widthFix'>
+<navigator url="../../pages/virusinfo/virusinfo" open-type="switchTab" class="homenavi" mode = 'widthFix'>
   <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
 </navigator>
 

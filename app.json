@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/wash/wash",
     "pages/home/home",
     "pages/tips/tips",
     "pages/logs/logs",
@@ -13,51 +12,52 @@
     "pages/report/report",
     "pages/mask_detail/mask_detail",
     "pages/about/about",
-    "pages/standard/standard"
+    "pages/standard/standard",
+    "pages/wash/wash"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "战胜疫情，从我做起",
+    "navigationBarTitleText": "人人防护",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "backgroundColor": "#fff",
-    "color": "#999999",
-    "selectedColor": "#0000FF",
+    "color": "#708090",
+    "selectedColor": "#64d2ff",
     "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/mask/mask",
-        "text": "口罩指南",
-        "iconPath": "images/TabBar/Face Mask.png",
-        "selectedIconPath": "images/TabBar/Face Mask.png"
+        "text": "口罩查询",
+        "iconPath": "images/TabBar/Mask.png",
+        "selectedIconPath": "images/TabBar/Mask_Selected.png"
       },
       {
         "pagePath": "pages/tips/tips",
         "text": "防疫技巧",
         "iconPath": "images/TabBar/Tips.png",
-        "selectedIconPath": "images/TabBar/Tips.png"
+        "selectedIconPath": "images/TabBar/Tips_Selected.png"
       },
       {
         "pagePath": "pages/home/home",
         "text": "主页",
         "iconPath": "images/TabBar/Home.png",
-        "selectedIconPath": "images/TabBar/Home.png"
+        "selectedIconPath": "images/TabBar/Home_Selected.png"
       },
       {
         "pagePath": "pages/virusinfo/virusinfo",
         "text": "疫情信息",
         "iconPath": "images/TabBar/Virus.png",
-        "selectedIconPath": "images/TabBar/Virus.png"
+        "selectedIconPath": "images/TabBar/Virus_Selected.png"
       },
       {
         "pagePath": "pages/about/about",
         "text": "关于我们",
-        "iconPath": "images/TabBar/about.png",
-        "selectedIconPath": "images/TabBar/about.png"
+        "iconPath": "images/TabBar/About.png",
+        "selectedIconPath": "images/TabBar/About_Selected.png"
       }
     ]
   }

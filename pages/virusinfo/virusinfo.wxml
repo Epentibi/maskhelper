@@ -1,7 +1,4 @@
 <!--pages/virusinfo/virusinfo.wxml-->
-<<<<<<< HEAD
-
-=======
 <image src = '../../images/Tests/ender.jpg' class = "cover center" mode = "widthFix"></image>
 <text class = "smallTitle center">肺炎疫情全国数据统计</text>
 <view class = "variable">
@@ -46,4 +43,3 @@
 <view class = "disclaimer">
     <text style="font-size:12px">口罩标准与具体如何使用和解读最终需要权威机构判断\n以上信息仅供参考</text>
 </view>
->>>>>>> a26108eead0ad274bb2b4e8df76f24a33b2a4d09
