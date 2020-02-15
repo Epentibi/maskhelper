@@ -4,46 +4,45 @@
   <image class='titleimgsize' src='{{imgUrl}}' mode="widthFix" bindtap='clickImg'></image>
 </view>
 
-<view class="washwarning">
-  <view class="warningtitle">温馨提示</view>
-    <text class='warning'>1.特别要注意彻底清洗</text> <text class='important'>戴戒指或手表</text> <text class='warning'>的部位，且先摘下手上的饰物再彻底清洁</text>
-    <text class="warning">\n2.建议结合图解和下面的步骤</text>
-
+<view class="variable">
+  <view class="content">
+    <view class="warningtitle">温馨提示</view>
+    <view class="warning">
+      <text>1.特别要注意彻底清洗</text> <text class='important'>戴戒指或手表</text> <text class='warninginfo'>的部位且先摘下手上的饰物再彻底清洁</text>
+      <text class="warninginfo">\n2.建议结合上面的图解和下面的步骤</text>
+    </view>
+  </view>
 </view>
 
-<view class="breakline"></view>
-  <view class="washsteps">
-    <text class="stepstitle">第一步 (洗手掌) : </text> <text class="steps">流水湿润双手，涂抹洗手液，掌心相对，手指并拢相互揉搓</text>
+  <view class="variable">
+    <view class="content">
+      <text class="stepstitle">第一步 (洗手掌) : </text> <text>流水湿润双手，涂抹洗手液，掌心相对，手指并拢相互揉搓</text>
+    </view>
   </view>
 
-  <view class="washsteps">
-    <text class="stepstitle">第二步(洗背侧指缝) : </text> <text class="steps">手心对手背沿指缝相互揉搓，双手交换进行</text>
+  <view class="variable">
+    <view class="content">
+      <text class="stepstitle">第二步(洗背侧指缝) : </text> <text>手心对手背沿指缝相互揉搓，双手交换进行</text>
+    </view>
   </view>
 
-  <view class="washsteps">
-    <text class="stepstitle">第三步(洗掌侧指缝) : </text> <text class="steps">掌心相对，双手交叉沿指缝相互揉搓</text>
+  <view class="variable">
+    <view class="content">
+      <text class="stepstitle">第三步(洗掌侧指缝) : </text> <text>掌心相对，双手交叉沿指缝相互揉搓</text>
+    </view>
   </view>
-
-  <view class="washsteps">
-    <text class="stepstitle">第四步(洗指背) : </text> <text class="steps">弯曲各手指关节，半握拳把指背放在另一手掌心旋转揉搓，双手交换进行</text>
+  <view class="variable">
+    <view class="content">
+      <text class="stepstitle">第四步(洗指背) : </text> <text>弯曲各手指关节，半握拳把指背放在另一手掌心旋转揉搓，双手交换进行</text>
+    </view>
   </view>
-
-  <view class="washsteps">
-    <text class="stepstitle">第五步(洗拇指) : </text> <text class="steps">一手握另一手大拇指旋转揉搓，双手交换进行</text>
-
+  <view class="variable">
+    <view class="content">
+      <text class="stepstitle">第五步(洗拇指) : </text> <text>一手握另一手大拇指旋转揉搓，双手交换进行</text>
+    </view>
   </view>
-
-  <view class="washsteps">
-    <text class="stepstitle">第六步(洗指尖) : </text> <text class="steps">弯曲各手指关节，把指尖合拢在另一手掌心旋转揉搓，双手交换进行</text>
+  <view class="variable">
+    <view class="content">
+      <text class="stepstitle">第六步(洗指尖) : </text> <text>弯曲各手指关节，把指尖合拢在另一手掌心旋转揉搓，双手交换进行</text>
+    </view>
   </view>
-
-  <view class="washsteps">
-    <text class="stepstitle">第七步(洗手臂和手臂) : </text> <text class="steps">揉搓手腕、手臂，双手交换进行</text>
-  </view>
-
-
-
-
-
-<view>
-</view>
