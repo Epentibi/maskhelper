@@ -11,9 +11,9 @@
     "pages/habit/habit",
     "pages/virusinfo/virusinfo",
     "pages/report/report",
-    "mask_detail",
     "pages/mask_detail/mask_detail",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/standard/standard"
   ],
   "window": {
     "backgroundTextStyle": "light",

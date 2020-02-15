@@ -1,0 +1,25 @@
+<!--pages/mask_detail/mask_detail.wxml-->
+<view class = "page">
+  <text class = "largeTitle center">{{standard.name}}</text>
+  <text class = "smallTitle center">{{standard.std}}</text>
+  <image src = '{{standard.img}}' class = "cover center" mode = "widthFix"></image>
+
+  <view class = "variable">
+    <view class = "list">
+      <text class = "variableValue">国家：{{standard.country}}</text>
+      <text class = "variableValue">过滤能效：</text>
+      <text wx:for="{{standard.capacity}}">
+        <text style = "margin-left:24px">{{item.id}} ≥ {{item.value}}</text>
+      </text>
+      <text class = "variableValue">应对COVID-1：{{standard.virus}}</text>
+    </view>
+  </view>
+
+  <view class = "variable">
+      <text class = "description">{{standard.desc}}</text>
+  </view>
+
+  <view class = "disclaimer">
+    <text style="font-size:12px">口罩标准与具体如何使用和解读最终需要权威机构判断\n以上信息仅供参考</text>
+  </view>
+</view>
