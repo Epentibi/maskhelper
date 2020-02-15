@@ -5,9 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrl: "https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Test/Slide/washmethod.png?sign=089448226f7f38f96bf2cbafe1f679c2&t=1581694875", 
+    washImg: "https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Test/Slide/washmethod.png?sign=089448226f7f38f96bf2cbafe1f679c2&t=1581694875", 
   },
-  clickImg: function (e) { var imgUrl = this.data.imgUrl; wx.previewImage({ urls: [imgUrl], success: function (res) { }, fail: function (res) { }, complete: function (res) { }, }) },
+
+  clickImg: function (e) { 
+    var imgUrl = e.currentTarget.dataset.src; wx.previewImage({ urls: [imgUrl], success: function (res) { }, fail: function (res) { }, complete: function (res) { }, }) 
+    },
 
 
   /**
