@@ -6,39 +6,48 @@
   <image class='titleimg' src="../../images/Tests/ender.jpg"></image>
 </view>
 
-<text class="weartitle">口罩佩戴步骤</text>
-<view class="info">
-  <view class="steps">
-    <text class="important">第一步</text><text class='wearsteps'>：戴口罩前要把手清洗干净。</text>
-  </view>
-  <view class="steps">
-    <text class="important">第二步</text><text class='wearsteps'>：判断口罩,深色面朝外，鼻夹侧朝上。</text>
-  </view>
-  <view class="steps">
-    <text class="important">第三步</text><text class='wearsteps'>：紧压鼻梁两侧，使口罩上端紧贴鼻梁.</text>
-  </view>
-  <view class="steps">
-    <text class="important">第四步</text><text class='wearsteps'>：向下拉伸口罩，使口罩不留褶皱。</text>
-  </view>
-</view>
-
-<text class="weartitle">口罩摘除步骤</text>
-<view class="info">
-  <view class="steps">
-    <text class="important">第一步</text><text class='wearsteps'>：抓住耳带脱下口罩，不要触碰口罩前面。</text>
-  </view>
-  <view class="steps">
-    <text class="important">第二步</text><text class='wearsteps'>：抓住口罩内侧（贴脸面）对折。</text>
-  </view>
-  <view class="steps">
-    <text class="important">第三步</text><text class='wearsteps'>：对折，对折再对折。</text>
-  </view>
-  <view class="steps">
-    <text class="important">第四步</text><text class='wearsteps'>：拉出橡皮筋并丢弃。</text>
+<view class="variable">
+  <view class="content">
+    <text class="weartitle">口罩佩戴步骤</text>
+    <view class="info">
+      <view class="steps">
+        <text class="important">第一步</text><text>：戴口罩前要把手清洗干净。</text>
+      </view>
+      <view class="steps">
+        <text class="important">第二步</text><text>：深色面朝外，鼻夹侧朝上。</text>
+      </view>
+      <view class="steps">
+        <text class="important">第三步</text><text>：压鼻梁两侧，使口罩上端紧贴鼻梁.</text>
+      </view>
+      <view class="steps">
+        <text class="important">第四步</text><text>：向下拉口罩，使口罩不留褶皱。</text>
+      </view>
+    </view>
   </view>
 </view>
 
-<text class="weartitle">口罩温馨小提示</text>
+<view class="variable">
+  <view class="content">
+    <text class="weartitle">口罩摘除步骤</text>
+    <view class="info">
+      <view class="steps">
+        <text class="important">第一步</text><text>：抓住耳带脱口罩，不要碰口罩前面。</text>
+      </view>
+      <view class="steps">
+        <text class="important">第二步</text><text>：抓住口罩内侧（贴脸面）对折。</text>
+      </view>
+      <view class="steps">
+        <text class="important">第三步</text><text>：对折，对折再对折。</text>
+      </view>
+      <view class="steps">
+        <text class="important">第四步</text><text>：拉出橡皮筋并丢弃。</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<text class="noticetitle">口罩温馨小提示</text>
 
 <view class="notice">
   <view class="noticename">口罩使用年龄</view>

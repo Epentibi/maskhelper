@@ -1,4 +1,4 @@
-/* pages/wear/wear.wxss */
+/*标题*/
 .navi{
   display: flex;
   flex-direction: column;
@@ -22,32 +22,32 @@
   align-items: center;
   width: 100%;
 }
-.breakline{
-  height: 7rpx;
-  background-color: grey;
-  margin:10rpx;
-}
+/*标题*/
 
+
+/*步骤*/
 .weartitle{
   font-weight: bold;
   font-size: 35rpx;
-  margin-left: 30rpx;
-
 }
-
 .important{
   font-weight: bold;
 }
 .info{
   display: flex;
   flex-direction: column;
-  margin-left: 30rpx;
-  margin-bottom: 30rpx;
 }
 .steps{
   display: flex;
   flex-direction: row;
-  margin-top: 20rpx;
+}
+/*步骤*/
+
+/*温馨提示*/
+.noticetitle{
+  margin-left: 40rpx;
+  font-weight: bold;
+  font-size: 40rpx;
 }
 .noticename{
   font-weight: bold;
@@ -59,3 +59,23 @@
   line-height: 50rpx;
   margin-top: 10rpx;
 }
+/*温馨提示*/
+
+/*通用*/
+.variable{
+  margin: auto;
+  display: flex;
+  background-color: ghostwhite;
+  margin-top: 30rpx;
+  width: 90%;
+  border-radius: 24rpx; 
+  margin-bottom: 20rpx;
+}
+.content{
+  margin-bottom: 15rpx;
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+  margin-right: 15rpx;
+  line-height: 60rpx;
+}
+/*通用*/
