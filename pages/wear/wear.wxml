@@ -48,20 +48,29 @@
 
 
 <text class="noticetitle">口罩温馨小提示</text>
-
-<view class="notice">
-  <view class="noticename">口罩使用年龄</view>
-  <view class="noticeinfo">年龄极小的儿童不能使用口罩，会引起窒息。儿童和老人要谨慎使用，并且最好有人陪同。</view>
-</view>
-<view class="notice">
-  <view class="noticename">处理废弃口罩</view>
-  <view class="noticeinfo">对于一般的，没有病毒的口罩可以直接丢到有害垃圾箱；如果有发烧或咳嗽病人使用过的口罩，用酒精消过毒以后，再丢弃到有害垃圾的垃圾桶里处理。
-</view>
-</view>
-<view class="notice">
-  <view class="noticename">口罩使用时机</view>
-  <view class="noticeinfo">在空旷的地方或在家，不需要使用口罩；人员密集或封闭的地方则必须佩戴口罩。</view>
+<view class="variable">
+  <view class="content">
+    <view class="notice">
+      <view class="noticename">口罩使用年龄</view>
+      <view class="noticeinfo">年龄极小的儿童不能使用口罩，会引起窒息。儿童和老人要谨慎使用，并且最好有人陪同。</view>
+    </view>
+  </view>
 </view>
 
+<view class="variable">
+  <view class="content">
+    <view class="notice">
+      <view class="noticename">处理废弃口罩</view>
+      <view class="noticeinfo">对于一般的，没有接触病人的口罩可以直接丢到有害垃圾箱；如果有发烧或咳嗽病人使用过的口罩，用酒精消过毒以后，再丢弃到有害垃圾的垃圾桶里处理。</view>
+    </view>
+  </view>
+</view>
 
-
+<view class="variable">
+  <view class="content">
+    <view class="notice">
+      <view class="noticename">口罩使用时机</view>
+      <view class="noticeinfo">在空旷的地方或在家，不需要使用口罩；人员密集或封闭的地方则必须佩戴口罩。</view>
+    </view>
+  </view>
+</view>
