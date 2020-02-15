@@ -87,6 +87,13 @@
 					"id": -1,
 					"name": "pages/virusinfo/virusinfo",
 					"pathName": "pages/virusinfo/virusinfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/habit/habit",
+					"pathName": "pages/habit/habit",
 					"scene": null
 				}
 			]

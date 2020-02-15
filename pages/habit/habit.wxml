@@ -1,2 +1,13 @@
 <!--pages/habit/habit.wxml-->
+<view class="navi">
+  <text class='title'>居家防疫技巧</text>
+  <text class='subtitle'>最好的防疫就是宅在家，我们现在虽然不能国家做出贡献，但是我们可以不给国家添麻烦。</text>
+  <image class='titleimg' src="../../images/Tests/ender.jpg"></image>
+</view>
 
+<view class="breakline"></view>
+
+<view class="suggestion">
+  <text class="sugtitle">1.家内保持通风</text>
+  <text class='notice'>虽然病毒是通过空气传播的，它飘进家里的概率非常低</text>
+</view>

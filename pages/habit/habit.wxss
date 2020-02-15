@@ -1,1 +1,38 @@
 /* pages/habit/habit.wxss */
+.navi{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.title{
+  font-size: 50rpx;
+  font-weight: bolder;
+  margin-bottom: 15rpx;
+  margin-top:15rpx;
+}
+.subtitle{
+  line-height: 50rpx;
+  margin-bottom: 15rpx;
+}
+.titleimg{
+  border-radius: 24rpx;
+  margin-bottom: 15rpx;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.breakline{
+  height: 7rpx;
+  background-color: grey;
+  margin:10rpx;
+}
+.suggestion{
+  display: flex;
+  flex-direction: column;
+}
+.sugtitle{
+  font-weight: bolder;
+  font-size:30rpx;
+
+}
