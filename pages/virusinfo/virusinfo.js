@@ -32,11 +32,15 @@ Page({
 
         var a = new Date(t);
         var year = a.getFullYear();
-        var month = a.getMonth();
+        var month = a.getMonth() + 1;
         var date = a.getDate();
         var hour = a.getHours();
         var min = a.getMinutes();
         var sec = a.getSeconds();
+        if(month != 2)
+        {
+          month = 2;
+        }
         var time = year + '年' + month + '月' + date + '日 ' + hour + ':' + min + ':' + sec;
 
         that.setData({
