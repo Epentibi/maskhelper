@@ -7,31 +7,41 @@
 
 <view class="breakline"></view>
 
-<view class="suggestion">
-  <text class="sugtitle">1.家内保持通风</text>
-  <text class='notice'>虽然病毒是通过空气传播的，它飘进家里的概率非常低，最好在起床后、做饭时、洗完澡、打扫时、睡觉前这五个时间段开窗通风，以20-30分钟为宜。开窗时，老人及小孩要添衣，且避免在窗户旁边逗留，以免着凉。家中有病人的需谨慎开窗，建议以紫外线消毒灯净化空气，有条件的可以使用空气净化器</text>
-  <image class='sugimg' src="../../images/Tests/ender.jpg"></image>
+<view class="variable">
+  <view class="content">
+    <view class="suggestion">
+      <text class="sugtitle">1.家内保持通风</text>
+      <text class='notice'>虽然病毒是通过空气传播的，它飘进家里的概率非常低，最好在起床后、做饭时、洗完澡、打扫时、睡觉前这五个时间段开窗通风，以20-30分钟为宜。开窗时，老人及小孩要添衣，且避免在窗户旁边逗留，以免着凉。家中有病人的需谨慎开窗，建议以紫外线消毒灯净化空气，有条件的可以使用空气净化器</text>
+      
+    </view>
+  </view>
+</view>
+<view class="variable">
+  <view class="content">
+    <view class="suggestion">
+      <text class="sugtitle">2.做好居家消毒</text>
+      <text class='notice'>保持地面清洁干燥，不要有潮湿的角落，避免病毒细菌滋生。桌椅，玩具等物每天都做好清洁，并定期消毒。家用毛巾煮沸15-20分钟消毒。并且，外出回来，饭前，接触污染物后一定要消毒，可以使用含有效氯500毫克/升的洗清剂浸泡5～10分钟，取出后清水冲净。</text>
+      
+    </view>
+  </view>
 </view>
 
-<view class="suggestion">
-  <text class="sugtitle">2.做好居家消毒</text>
-  <text class='notice'>保持地面清洁干燥，不要有潮湿的角落，避免病毒细菌滋生。桌椅，玩具等物每天都做好清洁，并定期消毒。家用毛巾煮沸15-20分钟消毒。\n外出回来，饭前，接触污染物后一定要消毒，可以使用含有效氯500毫克/升的洗清剂浸泡5～10分钟，取出后清水冲净。</text>
-  <image class='sugimg' src="../../images/Tests/ender.jpg"></image>
+<view class="variable">
+  <view class="content">
+    <view class="suggestion">
+      <text class="sugtitle">3.养成良好的生活习惯</text>
+      <text class='notice'>早睡早起，不要熬夜，坚持运动，不大吃大喝，提升免疫力是最好的防疫武器。合理分配在家时间，不要成天与手机作伴，做一些自己热爱并且有意义的事情。充实的让自己度过这段防疫时期。</text>
+      
+    </view>
+  </view>
 </view>
 
-
-<view class="suggestion">
-  <text class="sugtitle">3.养成良好的生活习惯</text>
-  <text class='notice'>早睡早起，不要熬夜，坚持运动，不大吃大喝，提升免疫力是最好的防疫武器。合理分配在家时间，不要成天与手机作伴，做一些自己热爱并且有意义的事情。充实的让自己度过这段防疫时期。</text>
-  <image class='sugimg' src="../../images/Tests/ender.jpg"></image>
+<view class="variable">
+  <view class="content">
+    <view class="suggestion">
+      <text class="sugtitle">4.坚决不要走亲访友</text>
+      <text class='notice'>拒绝走亲访友，不是人情淡薄，而是生命第一。现在的饭局都是鸿门宴，串门就是害人 打牌就是玩命。见屏如面，网络送祝福，亲情友情依旧浓。每个人都宅在家里，为打赢防疫阻击战出一份力。</text>
+      
+    </view>
+  </view>
 </view>
-
-
-
-<view class="suggestion">
-  <text class="sugtitle">4.坚决不要走亲访友</text>
-  <text class='notice'>拒绝走亲访友，不是人情淡薄，而是生命第一。现在的饭局都是鸿门宴，串门就是害人 打牌就是玩命。见屏如面，网络送祝福，亲情友情依旧浓。每个人都宅在家里，为打赢防疫阻击战出一份力。</text>
-  <image class='sugimg' src="../../images/Tests/ender.jpg"></image>
-</view>
-
-<view class="breakline"></view>
