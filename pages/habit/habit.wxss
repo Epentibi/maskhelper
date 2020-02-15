@@ -30,9 +30,23 @@
 .suggestion{
   display: flex;
   flex-direction: column;
+  margin-left: 30rpx;
+  margin-right:30rpx;
+  margin-top: 25rpx;
+  
 }
 .sugtitle{
   font-weight: bolder;
   font-size:30rpx;
+  line-height: 30rpx;
+  font-size: 35rpx;
+}
+.notice{
+  margin-top: 10rpx;
+  line-height: 60rpx;
+}
+.sugimg{
+  border-radius: 24rpx;
 
+  width: 100%;
 }
