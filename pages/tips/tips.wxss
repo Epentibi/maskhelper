@@ -61,7 +61,7 @@
 }
 .quote{
   display: flex;
-  line-height: 85rpx;
+  line-height: 70rpx;
   margin-left: 50rpx;
   margin-right: 50rpx;
   margin-top: 18rpx;
