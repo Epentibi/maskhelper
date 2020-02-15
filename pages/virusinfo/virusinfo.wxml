@@ -20,7 +20,7 @@
 </view>
 <view class = "variable">
   <text class = "variableValue">死亡人数：{{content.newslist[0].desc.deadCount}}</text>
-  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.deadCount}}</text>
+  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.deadIncr}}</text>
 </view>
 
 <text class = "disclaimer">更新时间：{{dataTime}}</text>
