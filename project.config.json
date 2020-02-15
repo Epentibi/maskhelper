@@ -16,7 +16,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.1",
-	"appid": "wx483290d9f00593ee",
+	"appid": "wx39d6c58555f163f3",
 	"projectname": "Homepage%20Version%201",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -74,6 +74,19 @@
 					"name": "pages/wash/wash",
 					"pathName": "pages/wash/wash",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/standard/standard",
+					"pathName": "pages/standard/standard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/virusinfo/virusinfo",
+					"pathName": "pages/virusinfo/virusinfo",
 					"scene": null
 				}
 			]

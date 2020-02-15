@@ -1,1 +1,96 @@
-/* pages/virusinfo/virusinfo.wxss */
+.largeTitle{
+  font-size: 48px;
+  font-weight: 600;
+  width: 90%;
+  margin-top: 8px;
+}
+.smallTitle{
+  width: 90%;
+  margin-top: 12px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.clickValue{
+  margin-left:24px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.cover{
+  width: 90%;
+  height: auto;
+  color: blue;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.description{
+  margin: 16px;
+}
+
+.variable{
+  margin: auto;
+  display: flex;
+  background-color: ghostwhite;
+  margin-top: 12px;
+  width: 90%;
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+.variableIcon{
+  height: 32px;
+  margin-top: 12px;
+  width: 32px;
+  margin-left: 12px;
+}
+
+.variableValue{
+  margin-left: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.variableSmallValue{
+  margin-left: 20px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.list{
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  padding-right: 12px;
+}
+
+.disclaimer{
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.page{
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topSpace{
+  margin-top: 15
+}

@@ -1,2 +1,45 @@
 <!--pages/virusinfo/virusinfo.wxml-->
-<text>pages/virusinfo/virusinfo.wxml</text>
+<image src = '../../images/Tests/ender.jpg' class = "cover center" mode = "widthFix"></image>
+<text class = "smallTitle center">肺炎疫情全国数据统计</text>
+<view class = "variable">
+  <text class = "variableValue">现存确诊：{{content.newslist[0].desc.currentConfirmedCount}}</text>
+  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.currentConfirmedIncr}}</text>
+</view>
+<view class = "variable">
+  <text class = "variableValue">累计确诊：{{content.newslist[0].desc.confirmedCount}}</text>
+  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.confirmedIncr}}</text>
+</view>
+<view class = "variable">
+  <text class = "variableValue">疑似病例：{{content.newslist[0].desc.suspectedCount}}</text>
+  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.suspectedIncr}}</text>
+</view>
+<view class = "variable">
+  <text class = "variableValue">治愈人数：{{content.newslist[0].desc.curedCount}}</text>
+  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.curedIncr}}</text>
+</view>
+<view class = "variable">
+  <text class = "variableValue">死亡人数：{{content.newslist[0].desc.deadCount}}</text>
+  <text class = "variableSmallValue">较昨日+{{content.newslist[0].desc.deadCount}}</text>
+</view>
+
+<text class = "disclaimer">更新时间：{{dataTime}}</text>
+
+<text class = "smallTitle center">肺炎疫情基本信息</text>
+<view class = "variable">
+  <text class = "description">{{content.newslist[0].desc.note1}}</text>
+</view>
+<view class = "variable">
+  <text class = "description">{{content.newslist[0].desc.note3}}</text>
+</view>
+<view class = "variable">
+  <text class = "description">{{content.newslist[0].desc.remark1}}</text>
+</view>
+<view class = "variable">
+  <text class = "description">{{content.newslist[0].desc.remark2}}</text>
+</view>
+<view class = "variable">
+  <text class = "description">{{content.newslist[0].desc.remark3}}</text>
+</view>
+<view class = "disclaimer">
+    <text style="font-size:12px">口罩标准与具体如何使用和解读最终需要权威机构判断\n以上信息仅供参考</text>
+</view>

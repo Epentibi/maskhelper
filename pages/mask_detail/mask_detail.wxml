@@ -1,17 +1,15 @@
 <!--pages/mask_detail/mask_detail.wxml-->
 <view class = "page">
   <text class = "largeTitle center">{{information.title}}</text>
+  <text class = "smallTitle center">{{information.eng}}</text>
   <image src = '{{information.img}}' class = "cover center" mode = "widthFix"></image>
 
   <view class = "variable">
     <view class = "list">
       <text class = "variableValue">口罩类型：{{information.type}}</text>
-      <text class = "variableValue">过滤标准：{{information.filterStd}}</text>
-      <text class = "variableValue">过滤能效：</text>
-      <text wx:for="{{information.filterCap}}">
-        <text style = "margin-left:24px">{{item.id}} ≥ {{item.value}}</text>
-      </text>
-      <text class = "variableValue">国际等量：{{information.intl}}</text>
+      <text class = "variableValue">市场价格：{{information.price}}</text>
+      <text class = "variableValue">建议使用时间：{{information.time}}</text>
+      <text class = "variableValue">过滤COVID19：\n{{information.virus}}</text>
     </view>
   </view>
 
@@ -22,10 +20,25 @@
   
   <view class = "variable">
     <view class = "list">
-      <text class = "variableValue">建议使用时间：{{information.time}}</text>
-      <text class = "variableValue">口罩参照标准：{{information.std}}</text>
-      <text class = "variableValue">市场价格：{{information.price}}</text>
-      <text class = "variableValue">过滤COVID19：\n{{information.virus}}</text>
+      <text wx:if="{{information.std.length>0}}" class = "variableValue">参照标准：{{information.std}}</text>
+      <block wx:if="{{information.filterStd.length>0}}">
+      <text class = "variableValue">过滤标准：</text>
+      <view wx:for="{{information.filterStd}}">
+        <text class = "clickValue" bindtap = "standardS" data-gid = "{{item}}">{{item}}</text>
+      </view>
+      </block>
+      <block wx:else="{{information.filterCap.length>0}}">
+        <text class = "variableValue">过滤能效：</text>
+        <text wx:for="{{information.filterCap}}">
+          <text style = "margin-left:24px">{{item.id}} ≥ {{item.value}}</text>
+        </text>
+      </block>
+      <block wx:if="{{information.intl.length>0}}">
+      <text class = "variableValue">海外标准：</text>
+      <view wx:for="{{information.intl}}">
+        <text class = "clickValue" bindtap = "standardS" data-gid = "{{item}}">{{item}}</text>
+      </view>
+      </block>
     </view>
   </view>
   <view class = "disclaimer">

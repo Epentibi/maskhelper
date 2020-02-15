@@ -8,9 +8,9 @@
       <view class='desc'>
         <view class='title'>{{item.title}}</view>
         <view class='count'>
-          <text>{{item.std}}</text>
+          <text class = 'subtitle'>{{item.eng}}</text>
+          <text>{{item.filterStd}}</text>
           <text>{{item.time}}</text>
-          <text>{{item.price}}</text>
         </view>
         </view>
     </view>

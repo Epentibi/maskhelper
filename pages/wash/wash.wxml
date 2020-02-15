@@ -1,7 +1,7 @@
 <!--pages/wash/wash.wxml-->
 <text class='title'>洗手步骤与注意事项</text>
 <view class="titleimg">
-  <image class='titleimgsize' src="../../images/Page/washmethod.png" mode="widthFix"></image>
+  <image class='titleimgsize' src="https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Test/Slide/washmethod.png?sign=089448226f7f38f96bf2cbafe1f679c2&t=1581694875" mode="widthFix"></image>
 </view>
 
 <view class="washwarning">
