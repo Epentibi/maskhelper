@@ -1,7 +1,7 @@
 <!--pages/wash/wash.wxml-->
 <text class='title'>洗手步骤与注意事项</text>
 <view class="titleimg">
-  <image class='titleimgsize' src='{{imgUrl}}' mode="widthFix" bindtap='clickImg'></image>
+  <image class='titleimgsize' data-src = "{{washImg}}" src ="{{washImg}}" mode="widthFix" bindtap='clickImg'></image>
 </view>
 
 <view class="variable">
