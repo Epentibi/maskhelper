@@ -1,1 +1,61 @@
 /* pages/wear/wear.wxss */
+.navi{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.title{
+  font-size: 50rpx;
+  font-weight: bolder;
+  margin-bottom: 15rpx;
+  margin-top:15rpx;
+}
+.subtitle{
+  line-height: 50rpx;
+  margin-bottom: 15rpx;
+}
+.titleimg{
+  border-radius: 24rpx;
+  margin-bottom: 25rpx;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.breakline{
+  height: 7rpx;
+  background-color: grey;
+  margin:10rpx;
+}
+
+.weartitle{
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+
+}
+
+.important{
+  font-weight: bold;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-bottom: 30rpx;
+}
+.steps{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.noticename{
+  font-weight: bold;
+  margin-left: 30rpx;
+  margin-top:20rpx;
+}
+.noticeinfo{
+  margin-left: 30rpx;
+  line-height: 50rpx;
+  margin-top: 10rpx;
+}

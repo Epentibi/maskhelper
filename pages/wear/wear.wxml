@@ -1,2 +1,58 @@
 <!--pages/wear/wear.wxml-->
-<text>pages/wear/wear.wxml</text>
+
+<view class="navi">
+  <text class='title'>口罩使用步骤及注意事项</text>
+  <text class='subtitle'>口罩的使用原则就是不过度保护，不盲目使用。</text>
+  <image class='titleimg' src="../../images/Tests/ender.jpg"></image>
+</view>
+
+<text class="weartitle">口罩佩戴步骤</text>
+<view class="info">
+  <view class="steps">
+    <text class="important">第一步</text><text class='wearsteps'>：戴口罩前要把手清洗干净。</text>
+  </view>
+  <view class="steps">
+    <text class="important">第二步</text><text class='wearsteps'>：判断口罩,深色面朝外，鼻夹侧朝上。</text>
+  </view>
+  <view class="steps">
+    <text class="important">第三步</text><text class='wearsteps'>：紧压鼻梁两侧，使口罩上端紧贴鼻梁.</text>
+  </view>
+  <view class="steps">
+    <text class="important">第四步</text><text class='wearsteps'>：向下拉伸口罩，使口罩不留褶皱。</text>
+  </view>
+</view>
+
+<text class="weartitle">口罩摘除步骤</text>
+<view class="info">
+  <view class="steps">
+    <text class="important">第一步</text><text class='wearsteps'>：抓住耳带脱下口罩，不要触碰口罩前面。</text>
+  </view>
+  <view class="steps">
+    <text class="important">第二步</text><text class='wearsteps'>：抓住口罩内侧（贴脸面）对折。</text>
+  </view>
+  <view class="steps">
+    <text class="important">第三步</text><text class='wearsteps'>：对折，对折再对折。</text>
+  </view>
+  <view class="steps">
+    <text class="important">第四步</text><text class='wearsteps'>：拉出橡皮筋并丢弃。</text>
+  </view>
+</view>
+
+<text class="weartitle">口罩温馨小提示</text>
+
+<view class="notice">
+  <view class="noticename">口罩使用年龄</view>
+  <view class="noticeinfo">年龄极小的儿童不能使用口罩，会引起窒息。儿童和老人要谨慎使用，并且最好有人陪同。</view>
+</view>
+<view class="notice">
+  <view class="noticename">处理废弃口罩</view>
+  <view class="noticeinfo">对于一般的，没有病毒的口罩可以直接丢到有害垃圾箱；如果有发烧或咳嗽病人使用过的口罩，用酒精消过毒以后，再丢弃到有害垃圾的垃圾桶里处理。
+</view>
+</view>
+<view class="notice">
+  <view class="noticename">口罩使用时机</view>
+  <view class="noticeinfo">在空旷的地方或在家，不需要使用口罩；人员密集或封闭的地方则必须佩戴口罩。</view>
+</view>
+
+
+

@@ -95,6 +95,13 @@
 					"id": -1,
 					"name": "pages/habit/habit",
 					"pathName": "pages/habit/habit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/wear/wear",
+					"pathName": "pages/wear/wear",
 					"scene": null
 				}
 			]
