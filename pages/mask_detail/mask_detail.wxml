@@ -9,7 +9,7 @@
       <text class = "variableValue">口罩类型：{{information.type}}</text>
       <text class = "variableValue">市场价格：{{information.price}}</text>
       <text class = "variableValue">建议使用时间：{{information.time}}</text>
-      <text class = "variableValue">过滤COVID19：\n{{information.virus}}</text>
+      <text class = "variableValue" wx:if="{{information.filterStd.length<=0 && information.intl.length<=0}}">过滤COVID19：\n{{information.virus}}</text>
     </view>
   </view>
 

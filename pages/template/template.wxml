@@ -1,4 +1,5 @@
 <!--pages/template/template.wxml-->
+<wxs module="filter" src="../../components/util.wxs"></wxs>
 <template name='searchlist'>
   <block wx:for='{{array}}'>
     <view class='mask' data-gid = '{{item.title}}' bindtap='seeDetail' id='0'>
@@ -9,7 +10,7 @@
         <view class='title'>{{item.title}}</view>
         <view class='count'>
           <text class = 'subtitle'>{{item.eng}}</text>
-          <text>{{item.filterStd}}</text>
+          <text>{{filter.arrayconvert(item.filterStd)}}</text>
           <text>{{item.time}}</text>
         </view>
         </view>
