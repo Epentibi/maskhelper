@@ -9,7 +9,6 @@ Page({
   },
 
   clickImg: function (e) { 
-    console.log(e.target.dataset.src);
     var imgUrl = e.currentTarget.dataset.src; wx.previewImage({ urls: [imgUrl], success: function (res) { }, fail: function (res) { }, complete: function (res) { }, }) 
     },
 
