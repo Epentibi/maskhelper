@@ -48,13 +48,9 @@
   width: 90%;
   border-radius: 24rpx;
   flex-direction: column;
-  
 }
 .content{
-  margin-bottom: 15rpx;
-  margin-left: 15rpx;
-  margin-top: 15rpx;
   line-height: 60rpx;
-  margin-right: 15rpx;
+  padding: 12px;
 }
 /*通用*/

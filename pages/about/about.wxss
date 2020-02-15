@@ -13,3 +13,38 @@
   display: block;
   text-align: center;
 }
+
+.small{
+  text-align: center;
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+.desc{
+  text-align: center;
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.smallTitle{
+  font-size: 22px;
+  font-weight: 600;
+  width: 90%;
+  margin: auto;
+  margin-top: 16px;
+  display: block;
+  text-align: center;
+}
+
+.variable{
+  margin: auto;
+  display: flex;
+  background-color: ghostwhite;
+  margin-top: 12px;
+  width: 90%;
+  border-radius: 12px;
+  flex-direction: column;
+}

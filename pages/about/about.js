@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    appLogo: "https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Graphics/Mask%20Icon%20Circle.png?sign=5bc4c264ee0dd7cc72b5fec55ace583c&t=1581760195",
+    
   },
 
   /**
