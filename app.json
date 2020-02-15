@@ -56,7 +56,7 @@
       {
         "pagePath": "pages/about/about",
         "text": "关于我们",
-        "iconPath": "images/TabBar/about.png",
+        "iconPath": "images/TabBar/About.png",
         "selectedIconPath": "images/TabBar/About_Selected.png"
       }
     ]
