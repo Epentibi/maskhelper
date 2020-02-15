@@ -1,1 +1,15 @@
-/* pages/about/about.wxss */
+.icon{
+  width: 40%;
+  margin: auto;
+  display: block;
+  margin-top: 36px;
+}
+.largeTitle{
+  font-size: 32px;
+  font-weight: 600;
+  width: 90%;
+  margin: auto;
+  margin-top: 16px;
+  display: block;
+  text-align: center;
+}
