@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/wash/wash",
     "pages/tips/tips",
     "pages/logs/logs",
     "pages/template/template",
