@@ -5,22 +5,22 @@
 </view>
 
 <view class='titleimg'>
-  <image  class='imgsize' src="../../images/Tests/ender.jpg"></image>
+  <image  class='imgsize' src="{{cover}}" mode ="widthFix"></image>
 </view>
 
 <text decode="true" class="naviinfo">洗手步骤</text>
 <navigator url="../../pages/wash/wash" open-type="navigate" class="homenavi" mode = 'widthFix'>
-  <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
+  <image src="{{washBanner}}" class='naviimg' mode = 'widthFix'></image>
 </navigator>
 
 <text decode="true" class="naviinfo">口罩使用</text>
 <navigator url="../../pages/wear/wear" open-type="navigate" class="homenavi" mode = 'widthFix'>
-  <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
+  <image src="{{maskBanner}}" class='naviimg' mode = 'widthFix'></image>
 </navigator>
 
 <text decode="true" class="naviinfo">生活习惯</text>
 <navigator url="../../pages/habit/habit" open-type="navigate" class="homenavi" mode = 'widthFix'>
-  <image src="../../images/Tests/ender.jpg" class='naviimg' mode = 'widthFix'></image>
+  <image src="{{mannerbanner}}" class='naviimg' mode = 'widthFix'></image>
 </navigator>
 
 <view class='breakline'></view>

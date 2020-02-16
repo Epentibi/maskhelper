@@ -1,6 +1,6 @@
 <!--pages/virusinfo/virusinfo.wxml-->
 
-<image src = '../../images/Tests/ender.jpg' class = "cover center" mode = "widthFix"></image>
+<image src = '{{coverImg}}' class = "cover center" mode = "widthFix"></image>
 <text class = "smallTitle center">肺炎疫情全国数据统计</text>
 <view class = "variable">
   <text class = "variableValue">现存确诊：{{content.newslist[0].desc.currentConfirmedCount}}</text>

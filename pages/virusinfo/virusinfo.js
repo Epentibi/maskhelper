@@ -7,6 +7,7 @@ Page({
   data: {
     content: null,
     dataTime: null,
+    coverImg:'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Banner/realtime_large.png?sign=b60fbb3a2fb3bb9c0cd51786b93c3033&t=1581848778'
   },
 
   /**

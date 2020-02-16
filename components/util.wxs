@@ -1,6 +1,5 @@
 var filter = {
   arrayconvert: function (value) {
-    console.log(value);
     return value.join(', ');
   }
 }
