@@ -18,8 +18,8 @@ Page({
         'price': '～为5-10人民币',
         'virus': '有效，KN90建议普通人日常佩戴,KN95请留给医务人员',
         'alt': ['fewa', 'feawg', 'gawhb',],
-        'icon': '../../images/Tests/ender.jpg',
-        'img': 's'
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Medical%20Respirator_Square.jpg?sign=81b874a8a9bd8552dee030c067a867c2&t=1581831157',
+        'img': ''
       },
       {
         'title': '医用外科口罩',
@@ -34,7 +34,7 @@ Page({
         'price': '～1元人民币',
         'virus': '有效，建议普通人日常佩戴',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Surgical-Mask_Square.jpg?sign=254b072624d8305747c3ac92cdb4a15a&t=1581829906',
         'img': ''
       },
       {
@@ -50,7 +50,7 @@ Page({
         'price': '～1元人民币',
         'virus': '无效',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Medical%20Mask_Square.jpg?sign=b5f97f8f1e0c41d01e82ac29aa85cdd0&t=1581831670',
         'img': ''
       },
       {
@@ -66,7 +66,7 @@ Page({
         'price': '<1人民币',
         'virus': '无效',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Cotton%20Mask_Square.png?sign=cdc551f92c382132ff69662d1410b4e7&t=1581831887',
         'img': ''
       },
       {
@@ -76,13 +76,13 @@ Page({
         'filterStd': [],
         'intl': [],
         'filterCap': [],
-        'std': '',
+        'std': '无',
         'desc': '',
         'time': '',
         'price': '<1人民币',
-        'virus': '',
+        'virus': '无效',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Sponge-Mask_Square.jpg?sign=4fe2cc36d0fb0b34a15e14bdb89921d9&t=1581829689',
         'img': ''
       },
       {
@@ -98,7 +98,7 @@ Page({
         'price': '<1人民币',
         'virus': '无效',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Carbon%20Mask_Square.jpg?sign=e2a02886739cffbc4b08b5a88c19b470&t=1581829636',
         'img': ''
       },
       {
@@ -114,7 +114,7 @@ Page({
         'price': '～5元人民币',
         'virus': '无效',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Disposable-Paper-Mask_Square.jpg?sign=909cf838df1cbb26292c4d27706433d8&t=1581829571',
         'img': ''
       },
       {
@@ -130,7 +130,7 @@ Page({
         'price': '1-2元人民币',
         'virus': '有效，建议普通人日常佩戴',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Dust-Mask_Square.jpg?sign=c4a5c2dde3e914e10a191b05ab546a18&t=1581830767',
         'img': ''
       },
       {
@@ -146,7 +146,7 @@ Page({
         'price': '价格不一',
         'virus': '有效,但是有可能价格不菲',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Gas-Mask_Square.jpg?sign=e22be78af131d9fa82c3377e7a0748e2&t=1581829753',
         'img': ''
       },
       {
@@ -162,7 +162,7 @@ Page({
         'price': '15元人民币',
         'virus': '无效',
         'alt': [],
-        'icon': '',
+        'icon': 'https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Mask%20Photo/Warm%20Mask_Square.jpg?sign=9ab336d72430ac115e72b0e7d07745ec&t=1581829790',
         'img': ''
       },
 
