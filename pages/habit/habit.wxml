@@ -2,10 +2,9 @@
 <view class="navi">
   <text class='title'>居家防疫技巧</text>
   <text class='subtitle'>最好的防疫就是宅在家，我们现在虽然不能国家做出贡献，但是我们可以不给国家添麻烦。</text>
-  <image class='titleimg' src="../../images/Tests/ender.jpg"></image>
+  <image class='titleimg' data-src = "{{washImg}}" src ="{{washImg}}" mode="widthFix" bindtap='clickImg'></image>
 </view>
 
-<view class="breakline"></view>
 
 <view class="variable">
   <view class="content">
@@ -16,6 +15,8 @@
     </view>
   </view>
 </view>
+<image class='contentimg' data-src = "{{windImg}}" src ="{{windImg}}" mode="widthFix" bindtap='clickImg'></image>
+
 <view class="variable">
   <view class="content">
     <view class="suggestion">
@@ -25,17 +26,18 @@
     </view>
   </view>
 </view>
+<image class='contentimg' data-src = "{{disImg}}" src ="{{disImg}}" mode="widthFix" bindtap='clickImg'></image>
 
 <view class="variable">
   <view class="content">
     <view class="suggestion">
       <text class="sugtitle">3.养成良好的生活习惯</text>
-      <text class='notice'>早睡早起，不要熬夜，坚持运动，不大吃大喝，提升免疫力是最好的防疫武器。合理分配在家时间，不要成天与手机作伴，做一些自己热爱并且有意义的事情。充实的让自己度过这段防疫时期。</text>
+      <text class='notice'>不妨将防疫期间的恪守当作“常态”。早睡早起，不要熬夜，坚持运动，不大吃大喝，提升免疫力是最好的防疫武器。合理分配在家时间，不要成天与手机作伴，做一些自己热爱并且有意义的事情。充实的让自己度过这段防疫时期。</text>
       
     </view>
   </view>
 </view>
-
+<image class='contentimg' data-src = "{{habitImg}}" src ="{{habitImg}}" mode="widthFix" bindtap='clickImg'></image>
 <view class="variable">
   <view class="content">
     <view class="suggestion">
@@ -45,3 +47,4 @@
     </view>
   </view>
 </view>
+<image class='contentimg' data-src = "{{bannerImg}}" src ="{{bannerImg}}" mode="widthFix" bindtap='clickImg'></image>

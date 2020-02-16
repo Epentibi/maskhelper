@@ -3,7 +3,7 @@
 <view class="navi">
   <text class='title'>口罩使用步骤及注意事项</text>
   <text class='subtitle'>口罩的使用原则就是不过度保护，不盲目使用。</text>
-  <image class='titleimg' src="../../images/Tests/ender.jpg"></image>
+  <image class='titleimg' data-src = "{{washImg}}" src ="{{washImg}}" mode="widthFix" bindtap='clickImg'></image>
 </view>
 
 <view class="variable">

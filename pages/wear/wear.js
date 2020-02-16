@@ -5,8 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    washImg: "https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Tips/Mask%20On.jfif.jpg?sign=816088832af6cdc7945237e623ac8be0&t=1581859980",
   },
+
+  clickImg: function (e) {
+    var imgUrl = e.currentTarget.dataset.src; wx.previewImage({ urls: [imgUrl], success: function (res) { }, fail: function (res) { }, complete: function (res) { }, })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载
