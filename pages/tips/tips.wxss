@@ -62,11 +62,20 @@
   display: flex;
   line-height: 30px;
   width: 90%;
-  margin-top: 12px;
-  margin-bottom: 12px;
   margin:auto;
+  margin-top: 4px;
 }
 .quotetitle{
   display: flex;
   line-height: 40px;
+}
+.variable{
+  margin: auto;
+  display: flex;
+  background-color: ghostwhite;
+  margin-top: 12px;
+  width: 90%;
+  border-radius: 12px;
+  flex-direction: column;
+  padding: 12px;
 }
