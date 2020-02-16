@@ -1,2 +1,5 @@
-<image src = "https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Graphics/Mask%20Icon%20Circle.png?sign=5bc4c264ee0dd7cc72b5fec55ace583c&t=1581760195" mode = "widthFix" class = "icon"></image>
+<image src = "{{appLogo}}" mode = "widthFix" class = "icon"></image>
 <text class="largeTitle">人人防护</text>
+<text class ="small">0.1.0</text>
+<text class ="desc">人人防护是由四名独立开发者开发的一款面对COVID-19病毒疫情时如何做到自我防护的小程序。目的是帮助群众及时了解实时疫情信息以及更好的学习有效的防疫技巧。了解口罩的分类及相关功能，学习口罩的正确佩戴和使用，以达到防御病毒的目的。相信人人做好自我防护，疫情就一定会得到有效控制和解决。</text>
+<text class = "smallTitle">开发路线计划</text>
