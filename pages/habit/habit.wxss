@@ -30,6 +30,13 @@
   flex-direction: column;
 
 }
+.contentimg{
+  border-radius: 12px;
+  margin: auto;
+  width: 90%;
+  margin-top: 15px;
+  display: flex;
+}
 .sugtitle{
   font-weight: bolder;
   font-size:17px;
@@ -50,6 +57,7 @@
   width: 90%;
   border-radius: 12px;
   flex-direction: column;
+  margin-botton:12px;
   
 }
 .content{
