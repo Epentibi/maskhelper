@@ -1,4 +1,6 @@
 // pages/about/about.js
+var app = getApp();
+
 Page({
 
   /**
@@ -6,6 +8,7 @@ Page({
    */
   data: {
     appLogo: "https://6d61-maskhelper-0unab-1301289559.tcb.qcloud.la/Graphics/Mask%20Icon%20Circle.png?sign=5bc4c264ee0dd7cc72b5fec55ace583c&t=1581760195",
+    versionString:null
     
   },
 
@@ -13,7 +16,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      versionString:app.globalData.versionString
+    })
   },
 
   /**

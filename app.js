@@ -35,6 +35,7 @@ App({
   },
   globalData: {
     userInfo: null,
+    versionString: "0.1.2",
     masks: [
       {
         'title': '医用防护口罩',
