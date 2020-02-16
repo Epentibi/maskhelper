@@ -1,73 +1,72 @@
-/* pages/tips/tips.wxss */
+/* 标题 */
 .tipstitle{
   display: flex;
   flex-direction: column;
 }
 .title{
   font-weight: bolder;
-  font-size: 50rpx;
-  margin-left: 35rpx;
-  border-color: black;
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
 }
 .subtitle{
-  margin-top: 10rpx;
+  margin-top: 5px;
   text-align: center;
-  font-size: 30rpx;
+  font-size: 15px;
   font-weight:bold;
 }
 .titleimg{
   display: flex;
-  margin-top: 20rpx;
+  margin-top: 10px;
   justify-content: center;
-  margin-bottom: 28rpx;
+  margin-bottom: 10px;
+  align-items: center;
 
 }
 .imgsize{
   width:90%;
-  border-radius: 24rpx;
+  border-radius: 12px;
 }
+/*标题*/
+
+/*跳转*/
 .homenavi{              
   justify-content: center; 
   align-items:center;
-  border-radius: 24rpx;
+  border-radius: 12px;
   width: 90%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 26rpx;
+  margin: auto;
+  margin-bottom: 10px;
 }
 .naviimg{
   height: auto;
   width:100%;
-  border-radius: 24rpx;
+  border-radius: 12px;
 }
 .naviinfo{
   font-weight: bold;
-  font-size: 36rpx;
+  font-size: 18px;
   width: 90%;
   display: block;
   margin: auto;
-  margin-bottom: 26rpx;
+  margin-bottom: 10px;
 }
+/*跳转*/
 .breakline{
-  height: 7rpx;
+  height: 3px;
   background-color: grey;
-  margin:10rpx;
-}
-.hr2{
-  height: 3rpx;
-  background-color: grey;
-  margin:10rpx;
+  margin:5px;
 }
 .quote{
   display: flex;
-  line-height: 70rpx;
-  margin-left: 50rpx;
-  margin-right: 50rpx;
-  margin-top: 18rpx;
-  margin-bottom: 20rpx;
+  line-height: 30px;
+  width: 90%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin:auto;
 }
 .quotetitle{
   display: flex;
-  line-height: 85rpx;
+  line-height: 40px;
 }

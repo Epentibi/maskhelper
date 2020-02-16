@@ -102,12 +102,27 @@
 					"id": -1,
 					"name": "pages/wear/wear",
 					"pathName": "pages/wear/wear",
+					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "pages/about/about",
 					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/habit/habit",
+					"pathName": "pages/habit/habit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tips/tips",
+					"pathName": "pages/tips/tips",
 					"scene": null
 				}
 			]
