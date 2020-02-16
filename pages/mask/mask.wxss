@@ -38,7 +38,7 @@
   border-radius: 10px;
 }
 .desc{
-  margin-left:20rpx
+  margin-left:10px
 
 }
 .count{

@@ -44,7 +44,7 @@
   margin: auto;
   display: flex;
   background-color: ghostwhite;
-  margin-top: 30rpx;
+  margin-top: 15px;
   width: 90%;
   border-radius: 12px;
   flex-direction: column;
