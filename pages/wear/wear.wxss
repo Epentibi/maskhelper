@@ -2,22 +2,22 @@
 .navi{
   display: flex;
   flex-direction: column;
-  margin-left: 30rpx;
-  margin-right: 30rpx;
+  width: 90%;
+  margin: auto;
 }
 .title{
-  font-size: 50rpx;
+  font-size: 25px;
   font-weight: bolder;
-  margin-bottom: 15rpx;
-  margin-top:15rpx;
+  margin-bottom: 7px;
+  margin-top:7px;
 }
 .subtitle{
-  line-height: 50rpx;
-  margin-bottom: 15rpx;
+  line-height: 25px;
+  margin-bottom: 7px;
 }
 .titleimg{
-  border-radius: 24rpx;
-  margin-bottom: 25rpx;
+  border-radius: 12px;
+  margin-bottom: 12px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -28,7 +28,7 @@
 /*步骤*/
 .weartitle{
   font-weight: bold;
-  font-size: 35rpx;
+  font-size: 17px;
 }
 .important{
   font-weight: bold;
@@ -46,14 +46,18 @@
 /*温馨提示*/
 .noticetitle{
   font-weight: bold;
-  font-size: 40rpx;
-  margin-left: 40rpx;
+  font-size: 20px;
+  margin:auto;
+  width: 90%;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .noticename{
   font-weight: bold;
 }
 .noticeinfo{
-  line-height: 50rpx;
+  line-height: 25px;
 }
 /*温馨提示*/
 
@@ -62,16 +66,16 @@
   margin: auto;
   display: flex;
   background-color: ghostwhite;
-  margin-top: 30rpx;
+  margin-top: 15px;
   width: 90%;
-  border-radius: 24rpx; 
-  margin-bottom: 20rpx;
+  border-radius: 12px; 
+  margin-bottom: 10px;
 }
 .content{
-  margin-bottom: 15rpx;
-  margin-left: 15rpx;
-  margin-top: 15rpx;
-  margin-right: 15rpx;
-  line-height: 60rpx;
+  margin-bottom: 7px;
+  margin-left: 7px;
+  margin-top: 7px;
+  margin-right: 7px;
+  line-height: 30px;
 }
 /*通用*/

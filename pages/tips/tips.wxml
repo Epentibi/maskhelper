@@ -3,6 +3,7 @@
   <text class='title'>防疫技巧</text>
   <text decode="true" style="white-space:pre-wrap" class='subtitle'>做一个负责任，受保护的公民</text>
 </view>
+
 <view class='titleimg'>
   <image  class='imgsize' src="../../images/Tests/ender.jpg"></image>
 </view>

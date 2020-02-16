@@ -8,8 +8,8 @@
   flex-direction:row;
 }
 .menu-item{
-  font-size: 29rpx;
-  margin-top:12rpx;
+  font-size: 15px;
+  margin-top:6px;
   width:50%;
 }
 .breakline{
