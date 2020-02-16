@@ -5,22 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    information: {
-      "title": '医用防护口罩',
-      "eng": 'Medical Protection Mask',
-      'desc':'医⽤用外科⼝口罩  ⼤大多都为⼀一次性使⽤用，医⽤用防护⼝口罩适⽤用于医务⼈人员和相关⼯工作⼈人员对经空⽓气传播的呼吸道 传染病的防护，是⼀一种密合性⾃自吸过滤式医疗防护⽤用品，防护等级⾼高，尤其适⽤用于诊疗活动 中接触经空⽓气传播或近距离经⻜飞沫传播的呼吸道感染疾病患者时佩戴。',
-      "type": '医用防护口罩',
-      "filterStd": ["KN90", "KN95", "KN100"],
-      "filterCap": [{id: "非油性颗粒", value: "90%"}],
-      "intl": ["FFTP2"],
-      "std": 'GB19083-2010',
-      "time": '5小时',
-      "price": '100¥',
-      "virus": '普通群众穿戴即可',
-      "alt": ["eafw", "feaw", "fda"],
-      "icon": '../../images/Tests/ender.jpg',
-      "img": '../../images/Tests/ender.jpg'
-    },
+    information: null,
     
   },
 
@@ -30,12 +15,12 @@ Page({
   onLoad: function (options) {
     if(options.information != null)
     {
-      var l = JSON.parse(options.information);
+      var app = getApp();
       this.setData({
-        information: l
+        information : app.globalData.masks.find(x => x.title === options.information)
       });
     }
-    console.log("已打开页面" + this.data.information.title);
+    console.log("已打开页面" + this.data.information.img);
     
   },
 
@@ -95,5 +80,15 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  formatString : function (str) {
+    if (typeof (str) != "string") {
+      console.log('去除回车换行空格失败！参数不是字符串类型')
+      return;
+    }
+    str = str.replace(/\ +/g, "");//去掉空格
+    str = str.replace(/[\r\n]/g, "");//去掉回车换行
+    return str;
   }
+
 })
