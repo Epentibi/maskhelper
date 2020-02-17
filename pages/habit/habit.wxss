@@ -57,7 +57,8 @@
   width: 90%;
   border-radius: 12px;
   flex-direction: column;
-  margin-botton:12px;
+  margin-bottom:12px;
+  padding: 12px;
   
 }
 .content{
